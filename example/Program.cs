@@ -21,6 +21,7 @@ namespace example
             students.Add(student3);
             Student student4 = new Student("john doe13C", null, "1234569", "C", 13);
             students.Add(student4);
+          
             /* Console.WriteLine("Aktuális diák lista: ");
              foreach (Student s in students)
              {

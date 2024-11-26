@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace example
 {
-    class Student
+    class Student: EducationalPerson
     {
-        public string Name { get; set; }
+
         public DateTime? DOB { get; set; }
-        public string OMId { get; set; }
-        public string ClassLabel { get; set; } = "C";
-        public int ClassLevel { get; set; } = 12;
 
         public Student() { }
         /*

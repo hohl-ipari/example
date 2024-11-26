@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace example
 {
-    class HomeRoomTeacher
+    class HomeRoomTeacher : EducationalPerson
     {
-        public string Name { get; set; }
-        public string OMId { get; set; }
         public bool HasClass { get; set; }
-        public string ClassLabel { get; set; }
-        public int ClassLevel { get; set; }
         //írj default és paraméteres kostruktort
         public HomeRoomTeacher()
         {
