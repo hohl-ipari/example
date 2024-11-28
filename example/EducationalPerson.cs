@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace example
 {
-    abstract class EducationalPerson : Person
+    class EducationalPerson : Person
     {
       
         public string OMId { get; set; }
