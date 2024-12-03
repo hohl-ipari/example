@@ -6,8 +6,8 @@ namespace example
      * készíts egy Osztályfőnok osztályt, tulajdonságok: név, OM, vane-e osztálya, 
      * osztály betűjele, évfolyam száma
      * */
-    
-    
+
+   
     internal class Program
     {
         static void Main(string[] args)
