@@ -8,7 +8,7 @@ namespace example
      * */
     
     
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
